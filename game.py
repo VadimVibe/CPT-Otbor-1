@@ -1,10 +1,3 @@
-def print_play_game():
-    print("Игровое поле с номерами ячеек")
-    print(' 1 | 2 | 3 ')
-    print('---+---+---')
-    print(' 4 | 5 | 6 ')
-    print('---+---+---')
-    print(' 7 | 8 | 9 ')
 def if_win():
     for i in range(0,7,3):
         if place[1+i] == place[2+i] == place[3+i] and place[1+i] != ' ': return 1
